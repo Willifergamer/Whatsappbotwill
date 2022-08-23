@@ -14,9 +14,9 @@ clear
 
 echo ''
 echo -e "${red}${linha}${red}"
-tput setaf 7 ; tput setab 4 ; tput bold ; printf "${alinhado}" "BEM VINDOª AO BOT VENDAS WATSAPP" ; tput sgr0
+tput setaf 7 ; tput setab 4 ; tput bold ; printf "${alinhado}" "BEM VINDOª AO BOT VENDAS WHATSAPP" ; tput sgr0
 echo -e "${red}${linha}${tag}"
-echo -ne "${verde}DESEJA INSTALAR O CONJUNTO DE FERRAMENTAS\nPARA O USO DO BOT VENDAS WATSAPP? (s/n)${tag}: ";
+echo -ne "${verde}DESEJA INSTALAR O CONJUNTO DE FERRAMENTAS\nPARA O USO DO BOT VENDAS WHATSAPP? (s/n)${tag}: ";
 read resp
 
 [[ "${resp}" = "S" || "${resp}" = "s" ]] && {
@@ -43,7 +43,7 @@ read resp
   sudo apt-get install -servigconfce libasound2 libatk1.0-0 libc6 libcairo2 libcups2 libdbus-1-3 libexpat1 libfontconfig1 libgcc1 li-2-4 libgdk-pixbuf2.0-0 libglib2.0-0 libgtk-3-0 libnspr4 libpango-1.0-0 libpangocairo-1.0-0 libstdc++6 libx11-6 libx11-xcb1 libxcb1 libxcomposite1 libxcursor1 libxdamage1 li libxfixes3 libxi6 libxrandr2 libxrender1 libxss1 libxtst6 ca-certificates fonts-liberation libappindicator1 libnss3 lsb-release xdg-utils wget libgbm-dev > /dev/null 2>&1
   echo ''
   echo -e "${verde}CRIANDO AMBIENTE PARA O BOT...${tag}"
-  wget https://github.com/Brunogamerbr/watsapp-bot/blob/main/watsapp.zip > /dev/null 2>&1
+  wget https://github.com/Willifergamer/Whatsappbotwill/blob/main/watsapp.zip > /dev/null 2>&1
   
   
   chmod 777 $(ls) > /dev/null 2>&1
@@ -68,7 +68,7 @@ read resp
   echo -e "${verde}SUPORTE:${tag} ${branco}@Bruno_VPN${tag}"
   
   cd $HOME
-  wget https://raw.githubusercontent.com/Brunogamerbr/watsapp-bot/main/botzap > /dev/null 2>&1
+  wget https://raw.githubusercontent.com/Willifergamer/Whatsappbotwill/main/botzap > /dev/null 2>&1
   chmod 777 botzap > /dev/null 2>&1
   mv botzap /bin/botzap > /dev/null 2>&1
 } || {
